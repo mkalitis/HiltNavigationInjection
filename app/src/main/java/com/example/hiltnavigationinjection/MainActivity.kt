@@ -86,7 +86,7 @@ private fun NavigationHost(navController: NavHostController) {
         composable(
             route = "${AGE_DESTINATION}/{${AGE_PARAMETER}}",
             arguments = listOf(
-                // We take the name from the route parameter
+                // We take the age from the route parameter
                 navArgument(AGE_PARAMETER) {
                     type = NavType.IntType
                 }
@@ -112,7 +112,7 @@ private fun NavigationHost(navController: NavHostController) {
         composable(
             route = "${VEGETABLE_DESTINATION}/{${VEGETABLE_PARAMETER}}",
             arguments = listOf(
-                // We take the name from the route parameter
+                // We take the vegetable from the route parameter
                 navArgument(VEGETABLE_PARAMETER) {
                     type = NavType.StringType
                 }
