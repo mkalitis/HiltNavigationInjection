@@ -16,4 +16,4 @@ The navigation tree for this sample is contained within the ```MainActivity.kt``
 
 There is a Medium article for this so I will not repeat here.
 
-[Android Compose, Navigation, View Models and HILT](http://example.com)
+[Android Compose, Navigation, View Models and HILT](https://medium.com/p/c824541bd8e)
